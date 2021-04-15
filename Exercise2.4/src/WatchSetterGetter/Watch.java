@@ -7,7 +7,6 @@ public class Watch {
 	String material;
 	double price;
 	double weight;
-	char timer;
 	
 	
 	
@@ -54,16 +53,6 @@ public class Watch {
 	}
 	
 	//Create a Method
-	public void Timer(char timer) {
-		if (timer == 'Y') {
-			System.out.println("This Watch Can Set a Timer!");
-			
-		}else {
-			System.out.println("This Watch Cannot Set a Timer!");
-			
-		}
-	}
-	
 	public void knowTime() {
 		System.out.println("Can Know What Time it is Now!");
 	}
