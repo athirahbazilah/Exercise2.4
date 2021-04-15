@@ -20,7 +20,6 @@ public class Main {
 		System.out.println("Weight: " + Pierre.getWeight() + " g");
 		System.out.println();
 		
-		Pierre.Timer('N');
 		Pierre.knowTime();
 		
 
